@@ -1,8 +1,5 @@
-#
-# Desc.: Removes all scoreboards from grave_stones.
-# Called By: player
-# @s: player
-#
+#> Removes all scoreboards from grave_stones.
+# Called By: player <PLAYER>
 
 #remove scoreboards
 tellraw @a ["",{"text":"Removing scoreboards for Grave Stones...","color":"yellow"}]

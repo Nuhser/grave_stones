@@ -1,8 +1,5 @@
-#
-# Desc.: Building the grave.
-# Called By: grave_stones:tick
-# @s: player
-#
+#> Building the grave.
+# Called By: grave_stones:tick <PLAYER>
 
 #generate grave dirt
 

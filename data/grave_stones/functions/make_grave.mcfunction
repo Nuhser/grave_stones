@@ -1,8 +1,5 @@
-#
-# Desc.: Makes the grave.
-# Called By: grave_stones:tick
-# @s: player[scores={gs_deaths=1}]
-#
+#> Makes the grave.
+# Called By: grave_stones:tick <PLAYER [scores={gs_deaths=1}]>
 
 #replace lava if under the grave
 execute if block ~ ~-1 ~ minecraft:lava run setblock ~ ~-1 ~ minecraft:dirt

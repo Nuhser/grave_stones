@@ -1,8 +1,5 @@
-#
-# Desc.: Toggles the printing of the coordinates on/off.
-# Called By: player
-# @s: player
-#
+#> Toggles the printing of the coordinates on/off.
+# Called By: player <PLAYER>
 
 #change score from 0 to 1 or from 1 to 0
 scoreboard players operation $tell_coordinates gs_deaths -= $1 nuhser_constants

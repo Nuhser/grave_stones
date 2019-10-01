@@ -1,8 +1,5 @@
-#
-# Desc.: Destroys the grave and gives the player his items.
-# Called By: grave_stones:check_claim / grave_stones:remove_graves
-# @s: @e[tag=gs_graveMarker,tag=gs_deathPoint]
-#
+#> Destroys the grave and gives the player his items.
+# Called By: grave_stones:check_claim / grave_stones:remove_graves <@e[tag=gs_graveMarker,tag=gs_deathPoint]>
 
 #reduce all grave entities UNID to check for the right on. then restore them
 execute positioned ~ -3 ~ run scoreboard players operation @e[tag=gs_graveStorage,distance=..0.5] gs_id -= @s gs_id

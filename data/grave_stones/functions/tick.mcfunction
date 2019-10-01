@@ -1,8 +1,5 @@
-#
-# Desc.: Runs ones per tick.
-# Called By: #nuhser_core:tick
-# @s: <SERVER>
-#
+#> Runs ones per tick.
+# Called By: #nuhser_core:tick <SERVER>
 
 #disable all old storage minecarts
 execute as @e[tag=gs_graveMarker,tag=gs_graveStorage,nbt={Age:10}] at @s as @e[type=hopper_minecart,tag=gs_graveStorage,distance=..1] run data merge entity @s {Enabled:0b}

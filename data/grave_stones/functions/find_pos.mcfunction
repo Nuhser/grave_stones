@@ -1,8 +1,5 @@
-#
-# Desc.: Looks for a solid block to build the grave on.
-# Called By: grave_stones:make_grave
-# @s: player[scores={gs_deaths=1}]
-#
+#> Looks for a solid block to build the grave on.
+# Called By: grave_stones:make_grave <PLAYER [scores={gs_deaths=1}]>
 
 #make grave if position is right
 execute if block ~ ~ ~ #minecraft:air unless block ~ ~-1 ~ #minecraft:air unless block ~ ~-1 ~ minecraft:water unless block ~ ~-1 ~ minecraft:bubble_column run function grave_stones:make_grave

@@ -1,8 +1,5 @@
-#
-# Desc.: Tells the player the coordinates of his grave.
-# Called By: grave_stones:make_grave
-# @s: @e[tag=gs_graveMarker,tag=gs_deathPoint,nbt={Age:0}]
-#
+#> Tells the player the coordinates of his grave.
+# Called By: grave_stones:make_grave <@e[tag=gs_graveMarker,tag=gs_deathPoint,nbt={Age:0}]>
 
 #save graves coordinates in scoreboards
 execute store result score @s gs_xPos run data get entity @s Pos[0] 1

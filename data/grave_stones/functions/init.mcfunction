@@ -1,8 +1,5 @@
-#
-# Desc.: Initializes the scoreboards for grave_stones.
-# Called By: #nuhser_core:init
-# @s: <SERVER>
-#
+#> Initializes the scoreboards for grave_stones.
+# Called By: #nuhser_core:init <SERVER>
 
 #create scoreboards
 tellraw @a ["",{"text":"Creating scoreboards for Grave Stones...","color":"yellow"}]
