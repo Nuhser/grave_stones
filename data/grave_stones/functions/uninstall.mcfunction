@@ -2,7 +2,7 @@
 # Called By: player <PLAYER>
 
 #remove scoreboards
-tellraw @a ["",{"text":"Removing scoreboards for Grave Stones...","color":"yellow"}]
+tellraw @a ["",{"text":"Removing all scoreboards for Grave Stones...","color":"yellow"}]
 
 scoreboard objectives remove gs_deaths
 scoreboard objectives remove gs_itemAge
