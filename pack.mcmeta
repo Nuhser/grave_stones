@@ -1,6 +1,6 @@
 {
 	"pack": {
 		"pack_format": 1,
-		"description": "This pack will place a grave in the spot you die and keep your inventory's contents. You can take them out by shifting over the grave. Requires nuhser core to be installed first!"
+		"description": "This pack will place a grave in the spot you die and keep your inventory's contents. You can take them out by sneaking over the grave. Requires nuhser core to be installed first!"
 	}
 }
