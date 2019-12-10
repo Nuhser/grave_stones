@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "grave_stones:init"
+    "grave_stones:_init"
   ]
 }
