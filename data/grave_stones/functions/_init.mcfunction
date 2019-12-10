@@ -6,7 +6,7 @@ tellraw @a ["",{"text":"grave_stones: Loading Grave Stones...","color":"dark_pur
 
 tellraw @a ["",{"text":"grave_stones: Creating scoreboard...","color":"yellow"}]
 
-#create scoreboards
+# create scoreboards
 scoreboard objectives add gs_deaths deathCount
 scoreboard objectives add gs_itemAge dummy
 scoreboard objectives add gs_id dummy
