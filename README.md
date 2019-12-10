@@ -4,7 +4,7 @@
 
 <br>
 
-**Requires [nuhser_core](https://github.com/Nuhser/nuhser_core "Nuhser_Core") to be installed first!**
+**Requires [nuhser_core 4.0.0](https://github.com/Nuhser/nuhser_core "Nuhser_Core") or newer to be installed first!**
 
 When you die, this datapack places a grave at the location of your misfortune and saves your items. If you return later, you can stand on the grave and sneak to retrieve your items. But beware! If everything does not fit into your inventory, items could fall off and be destroyed. So be careful.
 
